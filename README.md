@@ -1,7 +1,7 @@
 # Cache Middleware for Django
 
 Automatically caches endpoints defined in the settings file(CACHE_URLS setting).
-Expects a two tuple actual endpont and the number of seconds the page should be cached for.
+Expects a two tuple actual endpoint and the number of seconds the page should be cached for.
 ```python
 CACHE_URLS = [
     ('/todos/view_todos/', 60),
