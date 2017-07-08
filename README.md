@@ -12,11 +12,14 @@ CACHE_URLS = [
 
 ```
 mkdir venv
+cd venv
 virtualenv -p /usr/bin/python2.7 .
 git clone https://github.com/johngathure/cache_middleware.git
+. bin/activate
 cd cache_middleware
 pip install -r requirements.txt
 ./manage.py migrate
 ./manage.py loaddata todos.json
+./manage.py test
 ./manage.py runserver
 ```
