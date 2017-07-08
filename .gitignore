@@ -1,0 +1,10 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+
+# Database stuff
+*.sqlite3
+
+# vim swap files
+*.swo
+*.swp
